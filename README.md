@@ -65,7 +65,7 @@ _tz.loadingScheme = _tz.loadingSchemes.MaNUAL_LOAD;
 _tz.loadZoneJSONData('/major_cities.json', true);
 ```
 
-```
+```sh
 mkdir tz
 curl ftp://ftp.iana.org/tz/tzdata-latest.tar.gz -o tz/tzdata-latest.tar.gz
 tar -xvzf tz/tzdata-latest.tar.gz -C tz
